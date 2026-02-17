@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Dylan Lami Violinist</title>
+    <title>Contact - Raquel Violin - Violinist</title>
+    <link rel="icon" href="violin.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="images/global.css">
 </head>
@@ -42,12 +43,13 @@
 
     <!-- Social Icons Bar -->
     <div class="social-bar">
-        <a href="#" aria-label="Spotify"><i class="fab fa-spotify"></i></a>
-        <a href="#" aria-label="Apple Music"><i class="fab fa-apple"></i></a>
-        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://open.spotify.com/intl-es/artist/2elUhFgRUgBjahEKB6KM2B" aria-label="Spotify" target="_blank"><i class="fab fa-spotify"></i></a>
+        <a href="https://music.apple.com/es/artist/raquel-violin/1525410268" aria-label="Apple Music" target="_blank"><i class="fab fa-apple"></i></a>
+        <a href="https://www.youtube.com/c/RAQUELVIOLIN" aria-label="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/raquel_violin/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/raquel.cabello.18" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.tiktok.com/@raquelviolin" aria-label="TikTok" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="contact.html" aria-label="Contact"><i class="far fa-envelope"></i></a>
     </div>
 
     <!-- Contact Me Title -->
@@ -58,20 +60,25 @@
     <!-- Availability Form -->
     <section class="availability-section" id="contact">
         <h5 class="availability-title">AVAILABILITY</h5>
-        <form class="availability-form">
+        <form class="availability-form" action="https://formsubmit.co/cliente.raquel.cabello@gmail.com" method="POST">
+            <!-- Formsubmit Configuration -->
+            <input type="hidden" name="_subject" value="New Event Request from Website">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
             <div class="form-row">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email" required>
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
             </div>
             <div class="form-row">
-                <input type="date" placeholder="Date of the Event" required>
-                <input type="text" placeholder="Event address" required>
+                <input type="date" name="event_date" placeholder="Event Date" required>
+                <input type="text" name="event_address" placeholder="Event address" required>
             </div>
             <div class="form-row full-width">
-                <input type="text" placeholder="Event Time" required>
+                <input type="text" name="event_time" placeholder="Event Time" required>
             </div>
             <div class="form-row full-width">
-                <textarea placeholder="Tell me more about your event" rows="5" required></textarea>
+                <textarea name="message" placeholder="Tell me more about your event" rows="5" required></textarea>
             </div>
             <button type="submit" class="submit-btn">Submit</button>
         </form>
@@ -80,16 +87,19 @@
     <!-- Contact Button (Desktop) -->
     <a href="#contact" class="contact-btn">
         <i class="far fa-comment"></i>
-        Contáctanos
+        Contact us
     </a>
 
     <!-- Mobile Footer Navigation -->
     <nav class="mobile-footer-nav">
         <ul>
-            <li><a href="mailto:info@dylanlami.com" aria-label="Email"><i class="far fa-envelope"></i></a></li>
-            <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#" aria-label="Settings"><i class="fas fa-cog"></i></a></li>
-            <li><a href="#" aria-label="Chat"><i class="far fa-comment"></i></a></li>
+            <li><a href="https://open.spotify.com/intl-es/artist/2elUhFgRUgBjahEKB6KM2B" aria-label="Spotify" target="_blank"><i class="fab fa-spotify"></i></a></li>
+            <li><a href="https://music.apple.com/es/artist/raquel-violin/1525410268" aria-label="Apple Music" target="_blank"><i class="fab fa-apple"></i></a></li>
+            <li><a href="https://www.youtube.com/c/RAQUELVIOLIN" aria-label="YouTube" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/raquel_violin/" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/raquel.cabello.18" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.tiktok.com/@raquelviolin" aria-label="TikTok" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="contact.html" aria-label="Contact"><i class="far fa-envelope"></i></a></li>
         </ul>
     </nav>
 
