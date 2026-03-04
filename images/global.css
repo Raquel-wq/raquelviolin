@@ -447,6 +447,12 @@ body {
     display: none; /* Hidden on mobile */
 }
 
+.bottom-sign {
+    text-align: center;
+    margin-top: 0.8cm;
+    font-size: 0.7rem;
+}
+
 /* ========================================
    VIDEOS PAGE SECTION - Mobile Base
 ======================================== */
@@ -845,6 +851,10 @@ body {
     .availability-section {
         padding: 5rem 1.88rem;
     }
+ 
+    .availability-section-home {
+        padding: 5rem 1.88rem 1rem 1.88rem;
+    }
 
     .availability-title {
         margin-bottom: 3.13rem;
@@ -892,6 +902,12 @@ body {
 
     .contact-btn i {
         font-size: 1.13rem;
+    }
+
+    .bottom-sign {
+        text-align: center; 
+        margin-top: 1.2cm; 
+        font-size: 0.7rem;
     }
 
     .videos-section {
